@@ -1,0 +1,9 @@
+Template: daisy-pipeline2-cli/admin_userid
+Type: string
+Default: ${pipeline.cli.clientkey}
+Description: Admin user ID for the DAISY Pipeline Server
+
+Template: daisy-pipeline2-cli/admin_password
+Type: password
+Default: ${pipeline.cli.clientsecret}
+Description: Admin password for the DAISY Pipeline Server
